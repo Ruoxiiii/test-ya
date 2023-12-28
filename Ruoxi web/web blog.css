@@ -1,0 +1,162 @@
+body
+{
+	font-family: 'Titillium Web', Arial;
+  	background-color: rgb(48, 41, 41);
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	position: relative;
+	padding-bottom: 3.74rem;
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	font-family: Karla;
+	font-weight: 300;
+	background-color: rgb(105, 89, 89);
+	color: white;
+	width: 100%;
+	height: 10vh;
+	border-radius: 20px;
+	margin-top: 15px;
+}
+
+header h2
+{
+	font-family: Titillium web;
+	color: rgb(194, 189, 189);
+	font-size: 25px;
+	position: absolute;
+	margin-top:12px;
+	left: 75px;
+}
+
+.nav
+{
+	position: absolute;
+	width: 100%;
+	left: 36%;
+}
+
+.nav a
+{
+	font-size: 19px;
+	position: relative;
+	left: 45%;
+	top: 20px;
+	color: white;
+	text-decoration: none;
+	margin-right: 25px;
+	transition: opacity 0.15s;
+}
+
+.nav a:hover
+{
+  opacity: 0.12;
+}
+.nav a:active
+{
+  opacity: 0.4;
+  color: rgb(83, 15, 15);
+}
+
+footer
+{
+	font-family: Karla;
+	font-size: 13px;
+	color: rgb(194, 189, 189);
+	background-color: rgb(54, 49, 49);
+	width: 40%;
+	left: 30%;
+	height: 6vh;
+	position: absolute;
+	border-radius: 20px;
+	margin-bottom:6px;	
+	bottom: 0;
+}
+
+footer h2
+{
+	margin-top: 9px;
+	text-align: center;
+}
+
+.student-inv
+{
+	color: rgb(194, 189, 189);
+	font-size: 30px;
+	background-color:rgb(77, 67, 67);
+	border-radius: 30px;
+	width: 400px;
+	height: 50px;
+	margin-left: 550px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.pe-culm
+{
+	margin-left: 200px;
+}
+
+.pe-culm, .partyyy, .assembly
+{
+	width: 300px;
+	margin-right: 130px;
+	margin-top: 4px;
+	max-height: 202px;
+	border-radius: 20px;
+}
+
+.info-pics
+{
+	font-family: karla;
+	color: rgb(194, 189, 189);
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 250px;
+}
+
+.fav-po
+{
+	color: rgb(194, 189, 189);
+	font-size: 30px;
+	background-color:rgb(77, 67, 67);
+	border-radius: 30px;
+	width: 470px;
+	height: 50px;
+	margin-left: 520px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.second-info
+{
+	font-family: karla;
+	color: rgb(194, 189, 189);
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 230px;
+}
+
+.welcoming
+{
+	margin-left: 200px;
+}
+
+.welcoming, .gagi-pareh, .mentoring-po
+{
+	width: 300px;
+	margin-right: 130px;
+	margin-top: 4px;
+	max-height: 202px;
+	border-radius: 20px;
+}
